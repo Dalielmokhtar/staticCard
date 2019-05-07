@@ -1,0 +1,93 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+.App{
+  border: 1px solid black;
+  width: 500px;
+    height: 350px;
+    border-radius: 20px;
+    background-color: blue; 
+    margin-left: auto;
+    margin-right: auto;
+
+}
+.text{
+  color: white;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-left: 200px;
+  font-size: 35px;
+}
+.simCard{
+border-radius: 10px;
+height: 55px;
+width: 80px;
+margin-left: 56px;
+}
+
+.CardNumberBack{
+  background-color: #FFFF4D;
+  margin:10px 50px;
+  width: max-content;
+}
+.CardNumber{
+font-size: 20px;
+letter-spacing: 6px;
+}
+.validation{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80%;
+  margin: 0 auto;
+}
+.val{
+  margin: 40px 15px;
+  font-size:10px;
+  font-weight: bold;
+
+}
+.ValiDate{
+  display: flex;
+  flex-direction: row;
+  margin :auto;
+}
+.date{
+  font-size: 8px;
+  margin: 14px -1px;
+  font-weight: bold;
+}
+.masterCard{
+height: 100px;
+width: 80px;
+
+}
+img.masterCard{
+  margin: 40px 170px;
+
+position: absolute;
+}
+.colWhite{
+  color: white;
+}
+.code{
+  font-weight: bold;
+
+}
+.cardHolder
+{
+  margin: 0 50px;
+  font-size: 15px;
+  
+  font-weight: bold;
+}
